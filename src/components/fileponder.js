@@ -38,8 +38,8 @@ function FilePondEr() {
     
 }
 
-const rootElement = document.getElementById("root");
+// const rootElement = document.getElementById("root");
 export default FilePondEr;
 
-// const rootElement = document.getElementById("root");
+
 // ReactDOM.render(<FilePondEr />, rootElement);
