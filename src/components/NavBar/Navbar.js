@@ -77,7 +77,7 @@ function Navbar (props) {
                                     
                         {NavItems.map((item, index) => {
                             
-                            return   <li className={( item.title === "Main" ? "active" : "")} > <a className={item.cName} href={item.url} > {item.title}</a></li>                                          
+                            return   (item.cName === "main-nav-links" ? <li className={( item.title === "Main" ? "active" : "")} > <a className={item.cName} href={item.url} > {item.title}</a></li> : null)                                          
     
                         })}
                         
